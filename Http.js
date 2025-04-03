@@ -5,6 +5,6 @@ const server = http.createServer((req,res)=>{
     res.end()
 })
 
-server.listen(5000)
+server.listen(5000)         //5000-port number
 
 console.log("hello")
